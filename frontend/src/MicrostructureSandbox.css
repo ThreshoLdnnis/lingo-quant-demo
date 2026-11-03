@@ -1,0 +1,60 @@
+.micro-sandbox {
+  color: #172033;
+  padding: 8px;
+}
+
+.micro-sandbox .card {
+  background: #fff;
+  border: 1px solid #cbd7e6;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(31, 45, 68, 0.06);
+  padding: 16px;
+}
+
+.micro-sandbox .metric-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.micro-sandbox .text-green-400 { color: #07885f; }
+.micro-sandbox .text-red-400 { color: #c7374d; }
+.micro-sandbox .text-gray-300 { color: #68788f; }
+.micro-sandbox .text-gray-400 { color: #7a8aa0; }
+.micro-sandbox .text-gray-500 { color: #68788f; }
+.micro-sandbox .text-gray-900 { color: #172033; }
+.micro-sandbox .text-2xl { font-size: 1.35rem; }
+.micro-sandbox .text-sm { font-size: 0.875rem; }
+.micro-sandbox .text-xs { font-size: 0.75rem; }
+.micro-sandbox .font-bold { font-weight: 800; }
+.micro-sandbox .font-medium { font-weight: 650; }
+.micro-sandbox .space-y-6 > * + * { margin-top: 16px; }
+.micro-sandbox .grid { display: grid; }
+.micro-sandbox .grid-cols-1 { grid-template-columns: 1fr; }
+.micro-sandbox .gap-6 { gap: 16px; }
+.micro-sandbox .gap-4 { gap: 12px; }
+.micro-sandbox .flex { display: flex; }
+.micro-sandbox .flex-col { flex-direction: column; }
+.micro-sandbox .justify-center { justify-content: center; }
+.micro-sandbox .block { display: block; }
+.micro-sandbox .w-full { width: 100%; }
+.micro-sandbox .mx-auto { margin-left: auto; margin-right: auto; }
+.micro-sandbox .max-w-6xl { max-width: 72rem; }
+.micro-sandbox .pb-2 { padding-bottom: 8px; }
+.micro-sandbox .p-2 { padding: 8px; }
+.micro-sandbox .mb-2 { margin-bottom: 8px; }
+.micro-sandbox .mt-1 { margin-top: 4px; }
+.micro-sandbox .border-b { border-bottom: 1px solid #cbd7e6; }
+.micro-sandbox .border { border: 1px solid #cbd7e6; }
+.micro-sandbox .rounded { border-radius: 6px; }
+.micro-sandbox .bg-white { background: #fff; }
+.micro-sandbox select {
+  outline: none;
+}
+.micro-sandbox input[type="range"] {
+  accent-color: #2563eb;
+}
+
+@media (min-width: 768px) {
+  .micro-sandbox .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .micro-sandbox .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

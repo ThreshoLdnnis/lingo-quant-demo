@@ -1,0 +1,46 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.ffd/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+build/
+
+# Frontend dependencies and rebuildable output
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local datasets, research output, backups and editor files
+data/
+outputs/
+work/
+.dataless_backups/
+*.bak
+*.log
+*.parquet
+*.arrow
+*.feather
+*.pkl
+*.joblib
+*_tickers.log
+* 2.py
+* 2.json
+.DS_Store
+.idea/
+.vscode/

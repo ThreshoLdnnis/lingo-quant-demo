@@ -1,0 +1,21 @@
+{
+  "name": "lingyu-terminal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-grid-layout": "^2.2.3",
+    "react-resizable": "^4.0.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.16"
+  }
+}
