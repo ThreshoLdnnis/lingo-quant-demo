@@ -46,8 +46,8 @@ python3 -m http.server 5174 --bind 127.0.0.1 --directory frontend/dist-static
 python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e ".[dev]"
-python -m pip install aiohttp lightgbm fastapi "uvicorn[standard]"
+python -m pip install -r requirements.txt
+python -m pip install akshare openai aiohttp lightgbm fastapi "uvicorn[standard]" pytest
 ```
 
 LightGBM 在部分 macOS 环境下还需要可用的 OpenMP 运行库。
